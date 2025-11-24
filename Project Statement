@@ -1,0 +1,27 @@
+Project Statement: TaskForge
+
+Problem Statement
+
+Students and professionals often struggle to maintain oversight of various assignments, deadlines, and project deliverables across different platforms. The lack of a simple, centralized, and categorized system leads to missed deadlines and poor prioritization. The goal is to solve this by creating a robust, yet straightforward, application for managing dynamic task lists.
+
+Scope of the Project
+
+The project will focus on the core lifecycle of task management: creation, tracking, status updates, deletion, and reporting. It will be implemented as a command-line interface (CLI) application in Java, utilizing serialization for persistent data storage. The scope is limited to single-user operation and does not include a graphical user interface or network communication.
+
+Target Users
+
+Students: To manage assignments, study topics, and exam schedules.
+
+Developers: To track bugs, features, and documentation tasks.
+
+General Users: Anyone requiring a simple tool for personal project management and daily to-dos.
+
+High-Level Features
+
+Task Creation: Allow users to define a task with a title, description, due date, priority, and initial status.
+
+Task Update & Deletion: Enable modification of any task detail, including status changes (Pending, In Progress, Complete).
+
+Reporting: Provide filtered lists of tasks (e.g., all tasks, completed tasks, overdue tasks).
+
+Data Persistence: Automatically save task data upon exit and load it upon startup.
